@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0175/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0175/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金籙解壇儀
+  date: '2015-08-29 00:12:16.236611'
+  source:
+    repository: kanripo
+    path: KR5b0175
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0175_000-ZTDZ.yaml, hash: 'sha256:4949e80a1102e4a96b6f305851eadf2a3d0f357a69cc63e825683fb738a74cf8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0175_000-ZTDZ.markers.yaml, hash: 'sha256:364b1451c4b882d15a4d59edb9fe5e5a3be92b754f5b0cb2f5bb8fc4d7db7f40'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0175_SJB_000-090086c
+    span:
+    - body
+    - 0
+    - 1270
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:dfcc1d4149fb0adb03984093902d03e4d6f015861c514725d9cb294a19abb2ca
